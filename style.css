@@ -1,3 +1,19 @@
 * {
   box-sizing: border-box;
 }
+
+.row {
+  display: flex;
+  background-color: #e8e6e5;
+  justify-content: space-around;
+}
+
+.col__1 {
+}
+
+.col__2 {
+}
+
+.container__foter {
+  display: flex;
+}
