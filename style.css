@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+.container__footer__subtitle,
+.container__footer__title {
+  text-align: center;
+}
 .container__footer__title {
   color: #67625f;
   font-size: 16px;
@@ -15,6 +20,7 @@
 }
 .row {
   background-color: #e8e6e5;
+  padding: 50px;
 }
 
 .icon__foter {
