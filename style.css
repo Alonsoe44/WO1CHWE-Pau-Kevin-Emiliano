@@ -1,3 +1,15 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
+}
+
+.container-fiestas {
+  background-color: #f8f8f8;
+  height: 700px;
+  padding: 100px 110px 0px 110px;
+}
+
+.container-sub-fiestas {
+  height: 140px;
+  background-color: grey;
 }
