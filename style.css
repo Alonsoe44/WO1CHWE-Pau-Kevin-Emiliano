@@ -65,3 +65,55 @@
   object-fit: cover;
   height: 5px;
 }
+
+.container__footer__subtitle,
+.container__footer__title {
+  text-align: center;
+}
+.container__footer__title {
+  color: #67625f;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+.container__footer__subtitle {
+  color: #67625f;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+}
+.row {
+  background-color: #e8e6e5;
+  padding: 50px;
+}
+
+.icon__foter {
+  display: block;
+  height: 60px;
+  margin: 0 auto 25px;
+}
+
+.icon__footer--envio {
+  width: 85px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg)
+    0 -38px no-repeat transparent;
+}
+
+.icon__footer--reloj {
+  width: 55px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -90px -38px
+    no-repeat transparent;
+}
+
+.icon__footer--devoluciones {
+  width: 68px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -150px -36px
+    no-repeat transparent;
+}
+
+.icon__footer--reembolso {
+  width: 77px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -223px -38px
+    no-repeat transparent;
+}
