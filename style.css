@@ -1,3 +1,67 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
+}
+
+.container-fiestas {
+  background-color: #f8f8f8;
+  height: 770px;
+  padding: 100px 110px 0px 110px;
+}
+
+.container-sub-fiestas {
+  background-color: grey;
+}
+
+.container-fiestas__mini-containers {
+  width: 300px;
+  height: 110px;
+  background-color: green;
+  margin: 10px;
+}
+
+.container-fiestas__title {
+  display: inline-block;
+  margin: 0px;
+  padding: 20px 0px;
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: #2e2925;
+}
+.container-fiestas__decoration::before,
+.container-fiestas__decoration::after {
+  content: "";
+  display: block;
+  width: 218px;
+  height: 0;
+  margin: 0 auto;
+  border-top: 2px solid #2e2925;
+}
+
+.container-fiestas_view-more {
+  height: 60px;
+  width: 130px;
+  border: none;
+  background-color: #ff5958;
+  color: #fff;
+}
+
+.container-fiestas__button-container {
+  height: 100%;
+}
+
+.container-fiestas__container-sections {
+  margin-top: 70px;
+}
+
+.container-fiestas__mini-containers img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-cutted {
+  object-fit: cover;
+  height: 5px;
 }

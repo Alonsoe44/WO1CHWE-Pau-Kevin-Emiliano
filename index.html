@@ -5,17 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="node_moddist/css/bootstrap.min.css"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
+      type="text/css"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Maria Lunarillos</title>
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <div
+        class="container-fiestas container d-flex flex-column align-items-center justify-content-around"
+      >
+        <div class="container-fiestas__decoration">
+          <h2
+            class="container-fiestas__title d-flex flex-column align-items-center"
+          >
+            FIESTAS
+          </h2>
+        </div>
+        <div class="container-fiestas__container-sections">
+          <div class="container-fiestas__mini-containers">
+            <img
+              src="https://static3.marialunarillos.com/media/wysiwyg/fiestastematicas.jpg"
+              alt="mesa con arco iris"
+            />
+          </div>
+          <div class="container-fiestas__mini-containers">
+            <img
+              src="https://static3.marialunarillos.com/media/wysiwyg/fiestaspersonajes.jpg"
+              alt="princesa disney"
+            />
+          </div>
+          <div class="container-fiestas__mini-containers">
+            <img
+              src="https://static3.marialunarillos.com/media/wysiwyg/pompones.jpg"
+              alt="flores de papel de colores calidos"
+              class="img-cutted"
+            />
+          </div>
+        </div>
+        <div
+          class="container-fiestas__button-container d-flex flex-column justify-content-end align-items-center"
+        >
+          <button class="container-fiestas_view-more">VER MÁS</button>
+        </div>
+      </div>
+
+      <div class="container-sub-fiestas"></div>
+    </main>
     <footer></footer>
   </body>
 </html>
