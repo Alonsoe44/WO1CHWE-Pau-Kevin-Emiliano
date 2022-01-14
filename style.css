@@ -55,3 +55,13 @@
 .container-fiestas__container-sections {
   margin-top: 70px;
 }
+
+.container-fiestas__mini-containers img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-cutted {
+  object-fit: cover;
+  height: 5px;
+}
