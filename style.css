@@ -17,3 +17,21 @@
 .container__foter {
   display: flex;
 }
+
+.icon__foter {
+  display: block;
+  height: 60px;
+  margin: 0 auto 25px;
+}
+
+.icon__footer--envio {
+  width: 85px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg)
+    0 -38px no-repeat transparent;
+}
+
+.icon__footer--reloj {
+  width: 55px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -90px -38px
+    no-repeat transparent;
+}
