@@ -3,6 +3,10 @@
   margin: 0px;
 }
 
+h2 {
+  margin: 0px;
+}
+
 .container-fiestas {
   background-color: #f8f8f8;
   height: 700px;
@@ -13,13 +17,21 @@
   background-color: grey;
 }
 
-.container-fiestas__container-sections {
-  background-color: blueviolet;
+.container-fiestas__mini-containers {
+  width: 325px;
+  height: 130px;
+  background-color: green;
+  margin: 6px;
 }
 
-.container-fiestas__mini-containers {
-  height: 130px;
-  background-color: yellow;
-  border: 1px solid black;
-  margin: 0px;
+.container-fiestas_view-more {
+  height: 60px;
+  width: 130px;
+  border: none;
+  background-color: #ff5958;
+  color: #fff;
+}
+
+.container-fiestas__button-container {
+  height: 100%;
 }
