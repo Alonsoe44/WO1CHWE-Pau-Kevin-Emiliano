@@ -10,6 +10,16 @@
 }
 
 .container-sub-fiestas {
-  height: 140px;
   background-color: grey;
+}
+
+.container-fiestas__container-sections {
+  background-color: blueviolet;
+}
+
+.container-fiestas__mini-containers {
+  height: 130px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 0px;
 }

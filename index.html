@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="node_moddist/css/bootstrap.min.css"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
+      type="text/css"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Maria Lunarillos</title>
@@ -16,15 +15,18 @@
   <body>
     <header></header>
     <main>
-      <div class="container-fiestas">
-        <h2>FIESTAS</h2>
-        <div class="container-fiestas__container-sections">
-          <div class="container-fiestas__mini-containers"></div>
-          <div class="container-fiestas__mini-containers"></div>
-          <div class="container-fiestas__mini-containers"></div>
+      <div
+        class="container-fiestas container d-flex flex-column justify-content-center"
+      >
+        <div class="row">
+          <h2>FIESTAS</h2>
+          <div class="container-fiestas__container-sections">
+            <div class="container-fiestas__mini-containers"></div>
+            <div class="container-fiestas__mini-containers"></div>
+            <div class="container-fiestas__mini-containers"></div>
+          </div>
+          <button class="container-fiestas_view-more"></button>
         </div>
-
-        <button class="container-fiestas_view-more"></button>
       </div>
       <div class="container-sub-fiestas"></div>
     </main>
