@@ -3,10 +3,6 @@
   margin: 0px;
 }
 
-h2 {
-  margin: 0px;
-}
-
 .container-fiestas {
   background-color: #f8f8f8;
   height: 700px;
@@ -21,7 +17,27 @@ h2 {
   width: 325px;
   height: 130px;
   background-color: green;
-  margin: 6px;
+  margin: 10px;
+}
+
+.container-fiestas__title {
+  display: inline-block;
+  margin: 0px;
+  padding: 20px 0px;
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: #2e2925;
+}
+.container-fiestas__decoration::before,
+.container-fiestas__decoration::after {
+  content: "";
+  display: block;
+  width: 218px;
+  height: 0;
+  margin: 0 auto;
+  border-top: 2px solid #2e2925;
 }
 
 .container-fiestas_view-more {
