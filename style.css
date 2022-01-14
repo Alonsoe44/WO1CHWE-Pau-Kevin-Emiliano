@@ -1,21 +1,20 @@
 * {
   box-sizing: border-box;
 }
-
+.container__footer__title {
+  color: #67625f;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+}
+.container__footer__subtitle {
+  color: #67625f;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+}
 .row {
-  display: flex;
   background-color: #e8e6e5;
-  justify-content: space-around;
-}
-
-.col__1 {
-}
-
-.col__2 {
-}
-
-.container__foter {
-  display: flex;
 }
 
 .icon__foter {
