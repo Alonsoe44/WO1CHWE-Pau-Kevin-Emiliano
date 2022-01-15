@@ -13,6 +13,11 @@ li {
   width: 100%;
 }
 
+li a {
+  font-weight: bold;
+  color: #67625f;
+}
+
 ul {
   padding: 0px;
   width: 100%;
@@ -197,6 +202,18 @@ ul {
 
 .container-contact__checkbox {
   margin-right: 10px;
+}
+
+.container-contact__button {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background: #ff5959;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 55px;
+  font-weight: 700;
 }
 
 .width100 {
