@@ -124,20 +124,28 @@
       </div>
       <div class="container container-contact">
         <div class="row container-contact__rrss"></div>
-        <div class="container-contact__subscribe d-flex align-items-center">
-          <form action="">
+        <div
+          class="container-contact__subscribe d-flex align-items-center justify-content-center"
+        >
+          <form action="" class="width100 d-flex justify-content-center">
             <ul class="d-flex flex-column align-items-center">
-              <li class="d-flex flex-column align-items-center">
+              <li
+                class="container-contact__mail-list d-flex flex-column align-items-center"
+              >
                 <label for="mail" class="container-contact__mail-label"
                   >RECIBE LAS NOVEDADES EN TU E-MAIL</label
                 >
-                <input type="email" id="mail" />
+                <input
+                  type="email"
+                  id="mail"
+                  class="container-contact__mail-input"
+                />
               </li>
-              <li>
+              <li class="d-flex flex-column align-items-center">
                 <input type="checkbox" id="privacity" />
                 <label for="privacity">Acepto la política de privacidad</label>
               </li>
-              <li>
+              <li class="d-flex flex-column align-items-center">
                 <button type="submit">SUSCRÍBETE ></button>
               </li>
             </ul>
