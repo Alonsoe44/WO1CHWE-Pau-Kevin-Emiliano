@@ -256,9 +256,9 @@ color: #524C47;
 }
 
 .row__follow-us{
-text-align: center;
-padding: 0;
-margin: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .follow-us{
@@ -266,7 +266,7 @@ margin: 0;
 }
 
 .container-copyright{
-      background: #FF5959;
+    background: #FF5959;
     text-align: center;
     color: #fff;
     height: 50px;
