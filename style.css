@@ -82,7 +82,6 @@ ul {
 .brother-icons {
   display: flex;
 }
-=======
 
 a{
   text-decoration: none;
@@ -103,11 +102,7 @@ li a {
   color: #67625f;
 }
 
-{
-  padding: 0px;
-  width: 100%;
-  margin: 0px;
-}
+
 
 p {
   margin: 0px;
@@ -239,13 +234,7 @@ p {
 
 .icon__footer--envio {
   width: 85px;
-  background: url(https://www.marialunarillos.com/skin/frontend/defa
-    
-    
-    
-    
-    
-t/newdesign2017/images/sprite.svg)
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg)
     0 -38px no-repeat transparent;
 }
 
