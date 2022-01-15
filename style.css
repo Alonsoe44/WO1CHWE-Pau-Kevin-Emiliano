@@ -4,6 +4,10 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 h3 {
   margin: 0px;
   font-weight: 700;
@@ -193,7 +197,8 @@ color: #524C47;
 }
 
 .container-contact__about-us {
-  background-color: yellow;
+  margin-top: 35px;
+  margin-bottom: 100px;
 }
 
 .container-contact__checkbox-container {
@@ -265,6 +270,35 @@ margin: 0;
   padding-bottom: 15px;
 }
 
+.icon__contact{
+  margin: 20px;
+  display: block;
+    width: 30px;
+    height: 31px;
+    margin: auto;
+}
+
+.icon__contact--mail{
+background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
+) 0 -207px no-repeat;
+    
+}
+
+.icon__contact--about{
+background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
+) 0 -246px no-repeat;
+}
+
+.icon__contact--sell-conditions{
+background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
+) 0 -285px no-repeat;
+}
+
+.icon__contact--link{
+  color: #FF595C;
+}
+
+
 .container-copyright{
       background: #FF5959;
     text-align: center;
@@ -273,5 +307,6 @@ margin: 0;
     font-size: 14px;
     line-height: 50px;
 }
+
 
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
