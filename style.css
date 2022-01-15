@@ -1,3 +1,16 @@
 * {
   box-sizing: border-box;
 }
+.icon {
+  width: 27px;
+  height: 27px;
+  margin: 10px;
+}
+
+.icon-header__menu {
+  width: 27px;
+  height: 27px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg)
+    0 0 no-repeat;
+  margin: 10px;
+}
