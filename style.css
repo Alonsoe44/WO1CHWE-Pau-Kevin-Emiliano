@@ -95,6 +95,7 @@ p {
 .img-cutted {
   object-fit: cover;
   height: 5px;
+  object-position: top;
 }
 
 .container__footer__subtitle,
