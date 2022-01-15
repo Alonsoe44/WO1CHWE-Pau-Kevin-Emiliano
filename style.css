@@ -402,5 +402,13 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   top: 130px;
 }
 
+@media (min-width: 601px){
+
+.row__icons{
+height: 500px;
+}
+
+
+}
 
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
