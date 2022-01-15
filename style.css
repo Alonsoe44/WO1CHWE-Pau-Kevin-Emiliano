@@ -3,6 +3,90 @@
   margin: 0px;
   font-family: "Source Sans Pro", sans-serif;
 }
+.icon {
+  width: 27px;
+  height: 27px;
+  margin: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.menu-space {
+  height: 60px;
+}
+.menu-bar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.icon-header {
+  background-color: red;
+  float: right;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.container__header-cake{
+  margin-bottom: 100px;
+}
+.icon-header__menu {
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/burger_menu.png)
+    no-repeat center left;
+}
+
+.icon-header__user {
+  width: 27px;
+  height: 27px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg)
+    0 0 no-repeat;
+}
+.icon-header__search {
+  background: #bbb8b6
+    url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -304px
+    12px no-repeat;
+}
+
+.icon-header__shopping {
+  background: #fff
+    url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -66px
+    10px no-repeat;
+}
+
+.icon-header__car-items {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.image-imagotype {
+}
+
+.red {
+  border: red solid;
+}
+
+.icons-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-imagotype {
+  width: 276px;
+  height: 50px;
+}
+.brother-icons {
+  display: flex;
+}
 
 body{
   margin: 0px;
@@ -329,6 +413,12 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     line-height: 50px;
 }
 
+
+.image__cake{
+  position: absolute;
+  top: 130px;
+}
+
 @media (min-width: 601px) {
   .container-contact {
     max-width: 100%;
@@ -367,7 +457,85 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .row__follow-us{
   text-align: left;
   }
+
+
+
+.row__icons{
+  height: 215px;
+width: 100%;
+margin: 0;
 }
 
 
+.row__icons--padding{
+  padding-left: 200px;
+  padding-right: 0px;
+}
+
+.row__icons--padding-asd{
+  padding-left: 0px;
+  padding-right: 200px;
+}
+
+
+.brand {
+    height: auto;
+    text-align: center;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: alpha(opacity=50);
+    opacity: 0.8;
+    display: inline;
+    margin: 40px;
+}
+
+.brand:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: alpha(opacity=0);
+    opacity: 1;
+
+}
+
+.brands-group{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1135px;
+  height: auto;
+  justify-content: space-around;
+  
+}
+
+.brand-group-container{
+  display: flex;
+  justify-content: center;
+}
+
+.breath-air{
+  height: 100px;
+}
+
+.breath-air__small{
+  height: 40px;
+  display: block;
+}
+.container-brands-section{
+  background-color: blue;
+  display: none;
+}
+.tittle-disappear{
+  display: none;
+  background-color: red;
+}
+  
+.container-brands-section{
+  display: unset;
+  }
+}
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
