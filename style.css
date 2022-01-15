@@ -157,3 +157,36 @@ h3 {
 .container-contact__about-us {
   background-color: yellow;
 }
+
+.icon__rss {
+  display: block;
+  height: 32px;
+  width: 33px;
+  
+}
+
+.icon__rss--facebook {
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) 0 -494px no-repeat transparent;
+}
+
+.icon__rss--instagram{
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -35px -494px no-repeat transparent;
+
+}
+
+.icon__rss--twitter{
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -70px -494px no-repeat transparent;
+
+}
+
+.icon__rss--pinterest{
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -106px -494px no-repeat transparent;
+
+}
+
+.icon__rss--youtube{
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -176px -494px no-repeat transparent;
+
+}
+
+/* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
