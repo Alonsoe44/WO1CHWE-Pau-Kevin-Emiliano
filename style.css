@@ -3,6 +3,11 @@
   margin: 0px;
 }
 
+h3 {
+  margin: 0px;
+  font-weight: 700;
+}
+
 .container-fiestas {
   background-color: #f8f8f8;
   height: 770px;
@@ -85,7 +90,7 @@
   margin: 0;
 }
 
-.container-fiestas__text {
+.container-fiestas__container-text {
   height: 75px;
   width: 170px;
   background-color: #ffffffc4;
@@ -93,10 +98,11 @@
   bottom: 0px;
   color: #66635e;
   padding: 20px;
-  font-size: 18px;
 }
 
-.container-fiestas__text h3 {
+.container-fiestas__text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
   line-height: 18px;
 }
 
