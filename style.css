@@ -33,6 +33,10 @@ ul {
   height: 50px;
   cursor: pointer;
 }
+
+.container__header-cake{
+  margin-bottom: 100px;
+}
 .icon-header__menu {
   background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/burger_menu.png)
     no-repeat center left;
@@ -391,6 +395,11 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 50px;
     font-size: 14px;
     line-height: 50px;
+}
+
+.image__cake{
+  position: absolute;
+  top: 130px;
 }
 
 
