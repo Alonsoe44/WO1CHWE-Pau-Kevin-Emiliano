@@ -146,9 +146,10 @@ h3 {
 }
 
 .container-contact__rrss {
-  background-color: red;
   padding: 0;
 margin: 0;
+padding-bottom: 35px;
+color: #524C47;
 }
 
 .container-contact__subscribe {
