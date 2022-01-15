@@ -2,6 +2,17 @@
 <html lang="es-ES">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      href="https://static3.marialunarillos.com/media/favicon/default/favicon_1.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -57,7 +68,199 @@
         </div>
       </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <div
+        class="container-fiestas container d-flex flex-column align-items-center justify-content-around"
+      >
+        <div class="container-fiestas__decoration">
+          <h2
+            class="container-fiestas__title d-flex flex-column align-items-center"
+          >
+            FIESTAS
+          </h2>
+        </div>
+        <div class="container-fiestas__container-sections">
+          <div
+            class="container-fiestas__mini-containers d-flex position-relative"
+          >
+            <section
+              class="container-fiestas__container-text position-absolute"
+            >
+              <h3 class="container-fiestas__text">FIESTAS TEMÁTICAS</h3>
+            </section>
+            <img
+              class="position-relative"
+              src="https://static3.marialunarillos.com/media/wysiwyg/fiestastematicas.jpg"
+              alt="mesa con arco iris"
+            />
+          </div>
+          <div
+            class="container-fiestas__mini-containers d-flex position-relative"
+          >
+            <section
+              class="container-fiestas__container-text position-absolute"
+            >
+              <h3 class="container-fiestas__text">FIESTAS PERSONAJES</h3>
+            </section>
+            <img
+              src="https://static3.marialunarillos.com/media/wysiwyg/fiestaspersonajes.jpg"
+              alt="princesa disney"
+            />
+          </div>
+          <div
+            class="container-fiestas__mini-containers d-flex position-relative"
+          >
+            <section
+              class="container-fiestas__container-text position-absolute"
+            >
+              <h3 class="container-fiestas__text">ACCESORIOS PARA FIESTAS</h3>
+            </section>
+            <img
+              src="https://static3.marialunarillos.com/media/wysiwyg/pompones.jpg"
+              alt="flores de papel de colores calidos"
+              class="img-cutted"
+            />
+          </div>
+        </div>
+        <div
+          class="container-fiestas__button-container d-flex flex-column justify-content-end align-items-center"
+        >
+          <button class="container-fiestas_view-more">VER MÁS</button>
+        </div>
+      </div>
+
+      <div class="container-sub-fiestas"></div>
+    </main>
+    <footer>
+      <div class="container__purchase container d-flex flex-column">
+        <div class="row row__icons align-items-center">
+          <div class="col-6">
+            <span class="icon__foter icon__footer--envio"
+              ><a href="logo"></a
+            ></span>
+            <p class="container__footer__title">ENVÍO GRATIS</p>
+            <p class="container__footer__subtitle">Pedidos superiores a 70€</p>
+          </div>
+          <div class="col-6">
+            <span class="icon__foter icon__footer--reloj"
+              ><a href="logo"></a
+            ></span>
+            <p class="container__footer__title">ENVÍO 24-48 HORAS</p>
+            <p class="container__footer__subtitle">
+              HAZ TUS PEDIDOS ANTES DE LAS 18:00H
+            </p>
+          </div>
+        </div>
+        <div class="row row__icons align-items-center">
+          <div class="col-6">
+            <span class="icon__foter icon__footer--devoluciones"
+              ><a href="logo"></a
+            ></span>
+            <p class="container__footer__title">DEVOLUCIONES</p>
+            <p class="container__footer__subtitle">
+              30 DÍAS PARA DEVOLVER TU COMPRA
+            </p>
+          </div>
+          <div class="col-6">
+            <span class="icon__foter icon__footer--reembolso"
+              ><a href="logo"></a
+            ></span>
+            <p class="container__footer__title">CONTRA REEMBOLSO</p>
+            <p class="container__footer__subtitle">SIN COMISIONES</p>
+          </div>
+        </div>
+      </div>
+      <div class="container container-contact">
+        <div class="row container-contact__rrss">
+          <div class="row row__follow-us">
+            <div class="col-12 justify-content-center follow-us">SÍGUENOS</div>
+          </div>
+          <div class="row row__follow-us justify-content-center">
+            <a
+              class="icon__rss icon__rss--facebook"
+              href="https://www.facebook.com/marialunarillostienda"
+            >
+            </a>
+            <a
+              class="icon__rss icon__rss--instagram"
+              href="https://twitter.com/marialunarillos"
+            >
+            </a>
+            <a
+              class="icon__rss icon__rss--twitter"
+              href="https://twitter.com/marialunarillos"
+            ></a>
+            <a
+              class="icon__rss icon__rss--pinterest"
+              href="https://www.pinterest.es/marialunarillos/_created/"
+            ></a>
+            <a
+              class="icon__rss icon__rss--youtube"
+              href="https://www.youtube.com/c/marialunarillos/videos"
+            ></a>
+          </div>
+        </div>
+        <div
+          class="container-contact__subscribe d-flex align-items-center justify-content-center"
+        >
+          <form action="" class="width100 d-flex justify-content-center">
+            <ul class="d-flex flex-column align-items-center">
+              <li
+                class="container-contact__mail-list d-flex flex-column align-items-center"
+              >
+                <label for="mail" class="container-contact__mail-label"
+                  >RECIBE LAS NOVEDADES EN TU E-MAIL</label
+                >
+                <input
+                  type="email"
+                  id="mail"
+                  class="container-contact__mail-input"
+                />
+              </li>
+              <li
+                class="container-contact__checkbox-container d-flex flex-row justify-content-center align-items-center"
+              >
+                <input
+                  class="container-contact__checkbox"
+                  type="checkbox"
+                  id="privacity"
+                />
+                <label for="privacity"
+                  >Acepto la <a href="">política de privacidad</a></label
+                >
+              </li>
+              <li class="d-flex flex-column align-items-center">
+                <button class="container-contact__button" type="submit">
+                  SUSCRÍBETE >
+                </button>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div class="row container-contact__about-us">
+          <div
+            class="d-flex flex-column align-items-center justify-content-around"
+          >
+            <a href="https://www.marialunarillos.com/contacto/"
+              ><span class="icon__contact icon__contact--mail"></span>
+              <p class="icon__contact--link">CONTACTO</p>
+            </a>
+            <a href="https://www.marialunarillos.com/sobre-nosotros/"
+              ><span class="icon__contact icon__contact--about"> </span>
+              <p class="icon__contact--link">SOBRE NOSOTROS</p>
+            </a>
+            <a
+              href="https://www.marialunarillos.com/algunas-dudas-sobre-producto/"
+              ><span class="icon__contact icon__contact--sell-conditions">
+              </span>
+              <p class="icon__contact--link">CONDICIONES DE VENTA</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-copyright">
+        <p>Copyright 2022 Maria Farolillos</p>
+      </div>
+    </footer>
   </body>
 </html>
