@@ -158,7 +158,9 @@ color: #524C47;
 }
 
 .container-contact__about-us {
-  background-color: yellow;
+  color: #FF595C;
+  margin-top: 35px;
+  margin-bottom: 100px;
 }
 
 .icon__rss {
