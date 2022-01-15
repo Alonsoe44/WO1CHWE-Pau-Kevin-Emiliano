@@ -402,6 +402,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   top: 130px;
 }
 
+
 @media (min-width: 601px){
 
 .row__icons{
@@ -421,6 +422,66 @@ margin: 0;
   padding-right: 200px;
 }
 
+
+.brand {
+    height: auto;
+    text-align: center;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: alpha(opacity=50);
+    opacity: 0.8;
+    display: inline;
+    margin: 40px;
 }
 
+.brand:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: alpha(opacity=0);
+    opacity: 1;
+
+}
+
+.brands-group{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1135px;
+  height: auto;
+  justify-content: space-around;
+  
+}
+
+.brand-group-container{
+  display: flex;
+  justify-content: center;
+}
+
+.breath-air{
+  height: 100px;
+}
+
+.breath-air__small{
+  height: 40px;
+  display: block;
+}
+.container-brands-section{
+  background-color: blue;
+  display: none;
+}
+.tittle-disappear{
+  display: none;
+  background-color: red;
+}
+  
+@media(min-width: 600px){
+.container-brands-section{
+  display: unset;
+  }
+}
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
