@@ -407,12 +407,18 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 .row__icons{
   height: 215px;
 width: 100%;
-padding: 0;
 margin: 0;
 }
 
-.icon__foter{
-padding: 0;
+
+.row__icons--padding{
+  padding-left: 200px;
+  padding-right: 0px;
+}
+
+.row__icons--padding-asd{
+  padding-left: 0px;
+  padding-right: 200px;
 }
 
 }
