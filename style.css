@@ -8,6 +8,10 @@ h3 {
   font-weight: 700;
 }
 
+li {
+  list-style: none;
+}
+
 .container-fiestas {
   background-color: #f8f8f8;
   height: 770px;
@@ -101,9 +105,11 @@ h3 {
 }
 
 .container-fiestas__text {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   line-height: 18px;
+}
+
+.container-contact__mail-label {
 }
 
 .row__icons {
@@ -150,8 +156,10 @@ h3 {
 }
 
 .container-contact__subscribe {
-  background-color: blue;
+  background-color: #fff;
   height: 250px;
+  border-top: 1.5px solid #cac8c6;
+  border-bottom: 1.5px solid #cac8c6;
 }
 
 .container-contact__about-us {
