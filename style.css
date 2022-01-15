@@ -140,3 +140,20 @@ h3 {
   background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -223px -38px
     no-repeat transparent;
 }
+
+.container-contact {
+  padding: 100px;
+}
+
+.container-contact__rrss {
+  background-color: red;
+}
+
+.container-contact__subscribe {
+  background-color: blue;
+  height: 250px;
+}
+
+.container-contact__about-us {
+  background-color: yellow;
+}
