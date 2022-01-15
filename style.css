@@ -202,6 +202,11 @@ color: #524C47;
 
 .container-contact__about-us {
   margin-top: 35px;
+
+}
+
+.container-contact__about-us a{
+  padding: 10px;
 }
 
 .container-contact__checkbox-container {
