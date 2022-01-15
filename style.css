@@ -25,7 +25,6 @@ li a {
 
 ul {
   padding: 0px;
-  width: 100%;
   margin: 0px;
 }
 
@@ -315,6 +314,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 50px;
     font-size: 14px;
     line-height: 50px;
+}
+
+@media (min-width: 600px) {
+
 }
 
 
