@@ -202,5 +202,29 @@ margin: 0;
   padding-bottom: 15px;
 }
 
+
+.icon__contact{
+  margin: 20px;
+  display: block;
+    width: 30px;
+    height: 31px;
+    margin: auto;
+}
+
+.icon__contact--mail{
+background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
+) 0 -207px no-repeat;
+    
+}
+
+.icon__contact--about{
+background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
+) 0 -246px no-repeat;
+}
+
+.icon__contact--sell-conditions{
+background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
+) 0 -285px no-repeat;
+}
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
 
