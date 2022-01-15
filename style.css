@@ -316,8 +316,25 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     line-height: 50px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 601px) {
+  .container-contact {
+    max-width: 100%;
+    border: none;
+  }
+  .container-contact__subscribe {
+    border: none;
+  }
+  .icon__contact {
+    margin-right: 10px;
+  }
 
+  .container-contact__anchors-media{
+    width: 100%;
+  }
+
+  .container-contact__about-us {
+    margin-top: 0;
+}
 }
 
 
