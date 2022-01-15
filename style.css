@@ -96,6 +96,10 @@
   font-size: 18px;
 }
 
+.container-fiestas__text h3 {
+  line-height: 18px;
+}
+
 .row {
   background-color: #e8e6e5;
   padding: 50px;
