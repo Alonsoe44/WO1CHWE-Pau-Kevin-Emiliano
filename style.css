@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h3 {
@@ -101,7 +102,6 @@ h3 {
 }
 
 .container-fiestas__text {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   line-height: 18px;
 }
