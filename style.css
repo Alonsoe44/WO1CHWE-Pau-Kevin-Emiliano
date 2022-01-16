@@ -290,6 +290,10 @@ p {
   background-position: 0 -109px;
 }
 
+.container__footer__title:hover, .container__footer__subtitle:hover{
+  color:#ff5958 ;
+}
+
 .container-contact {
   max-width: 325px;
   padding: 90px 0px;
