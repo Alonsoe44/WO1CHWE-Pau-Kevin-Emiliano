@@ -135,7 +135,7 @@ p {
 .container-fiestas__mini-containers {
   width: 330px;
   height: 130px;
-  margin: 10px;
+  margin: 7.5px;
 }
 
 .container-fiestas__title {
@@ -168,10 +168,15 @@ p {
 
 .container-fiestas__button-container {
   height: 100%;
+  padding-top: 50px;
 }
 
 .container-fiestas__container-sections {
   margin-top: 70px;
+}
+
+.container-fiestas__text-photos{
+  display: none;
 }
 
 .container-fiestas__mini-containers img {
@@ -213,9 +218,10 @@ p {
   padding: 20px;
 }
 
-.container-fiestas__text {
+.container-fiestas__title-photos {
   font-size: 18px;
   line-height: 18px;
+  color: #67635F;
 }
 
 .container-contact__mail-list {
@@ -536,14 +542,63 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     object-fit: contain;
   }
 
-  .container-fiestas__mini-containers {
-    width: 600px;
-    height: 300px;
-  }
-
   .horitzontal {
     width: 300px;
     height: 620px;
+  }
+
+  .container-fiestas__container-sections {
+    width: 1080px;
+  }
+
+  .container-fiestas__mini-containers{
+    width: 715px;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .container-fiestas__container-text{
+    width: 250px;
+    height: 150px;
+  }
+
+  .container-fiestas__text-photos {
+    font-size: 15px;
+    line-height: 18px;
+    color: #67635F;
+    display: inherit;
+  }
+
+  .container-fiestas__container-text--right{
+    right: 100px;
+  }
+
+  .container-fiestas__container-text::after{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid rgba(255,255,255,0.8);
+    border-right: 100px solid transparent;
+    position: absolute;
+    right: -100px;
+    top: 0;
+  }
+
+  .container-fiestas__title-photos {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+  .horitzontal {
+    width: 350px;
+    height: 615px;
+    margin-left: 15px;
+  }
+
+  .img-cutted{
+    object-fit: none;
   }
   .container-brands-section{
     display: unset;
@@ -551,6 +606,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .container-brands-section .hidden{
     display: inline;
   }
+
 
   .container-fiestas.hidden{
     display: inline-block;
@@ -561,5 +617,12 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 }
   
+  .container-fiestas {
+    padding: 100px 0 0 0;
+  }
 
+  
+.container-brands-section{
+  display: unset;
+  }
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
