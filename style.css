@@ -546,10 +546,34 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 620px;
   }
 
+  .icon-header__menu{
+    display: none;
+  }
+  .flag-mall{
+    width: 70px;
+    height: 140px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/maria-lunarillos.png) #FF5959 bottom center no-repeat;
+  }
+  .flag-cute{
+    width: 60px;
+    height: 70px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/cucute.png) #6199AF bottom center no-repeat;
+  }
+  .flag-cute:hover, .flag-much:hover{
+    height: 140px;
+  }
+  .flag{
+    margin-right: 2px;
+  }
+  .flag-much{
+    width: 60px;
+    height: 70px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/mumuchu.png) #F6B436 bottom center no-repeat;
+  }
 }
-  
+
 .container-brands-section{
   display: unset;
   }
-}
+
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
