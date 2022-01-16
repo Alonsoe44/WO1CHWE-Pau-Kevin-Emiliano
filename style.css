@@ -168,10 +168,15 @@ p {
 
 .container-fiestas__button-container {
   height: 100%;
+  padding-top: 50px;
 }
 
 .container-fiestas__container-sections {
   margin-top: 70px;
+}
+
+.container-fiestas__text-photos{
+  display: none;
 }
 
 .container-fiestas__mini-containers img {
@@ -542,10 +547,6 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 620px;
   }
 
-  .container-fiestas__button-container {
-    padding-top: 50px;
-  }
-
   .container-fiestas__container-sections {
     width: 1080px;
   }
@@ -566,6 +567,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     font-size: 15px;
     line-height: 18px;
     color: #67635F;
+    display: inherit;
   }
 
   .container-fiestas__container-text--right{
