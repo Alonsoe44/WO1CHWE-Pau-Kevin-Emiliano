@@ -13,12 +13,11 @@ ul {
   padding: 0px;
   margin: 0px;
 }
-.menu-space {
-  height: 60px;
-}
+
 .menu-bar {
   display: flex;
-  width: 100%;
+  justify-content: space-around;
+  width: 100vw;
   position: fixed;
   z-index: 3;
   top: 0;
@@ -67,6 +66,7 @@ ul {
   font-size: 1.5rem;
 }
 .image-imagotype {
+  margin-top: 60px;
 }
 
 .red {
@@ -75,7 +75,7 @@ ul {
 
 .icons-group {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -421,6 +421,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 .image__cake{
   position: absolute;
   top: 240px;
+}
+
+.brands{
+  height: 1575px;
 }
 
 .brand-group-container .hidden{
