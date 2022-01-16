@@ -135,7 +135,7 @@ p {
 .container-fiestas__mini-containers {
   width: 330px;
   height: 130px;
-  margin: 10px;
+  margin: 7.5px;
 }
 
 .container-fiestas__title {
@@ -536,11 +536,6 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     object-fit: contain;
   }
 
-  .container-fiestas__mini-containers {
-    width: 600px;
-    height: 300px;
-  }
-
   .horitzontal {
     width: 300px;
     height: 620px;
@@ -557,6 +552,27 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .container-fiestas__mini-containers{
     width: 715px;
     height: 300px;
+  }
+
+  .container-fiestas__container-text{
+    width: 250px;
+    height: 150px;
+  }
+
+  .container-fiestas__container-text--right{
+    right: 100px;
+  }
+
+  .container-fiestas__container-text::after{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid rgba(255,255,255,0.8);
+    border-right: 100px solid transparent;
+    position: absolute;
+    right: -100px;
+    top: 0;
   }
 
   .horitzontal {
