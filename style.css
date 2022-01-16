@@ -3,6 +3,9 @@
   margin: 0px;
   font-family: "Source Sans Pro", sans-serif;
 }
+header{
+  width:100%
+}
 .icon {
   width: 27px;
   height: 27px;
@@ -33,6 +36,7 @@ ul {
 }
 
 .container__header-cake{
+  margin: 0px;
   margin-bottom: 190px;
 }
 .icon-header__menu {
@@ -527,7 +531,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     padding-right: 0px;
   }
 
-  .row__icons--padding-asd{
+  .row__icons--padding-final{
     padding-left: 0px;
     padding-right: 200px;
   }
@@ -687,10 +691,12 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   }
 
   .main__flags{
+    width: 1080px;
     position: absolute;
     position:fixed;
     z-index: 4;
     top: 0;
+    
   }
 
   .container-fiestas_view-more:hover{
