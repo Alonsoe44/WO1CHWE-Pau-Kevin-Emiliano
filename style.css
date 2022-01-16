@@ -283,7 +283,7 @@ p {
 }
 
 .icon__footer--reloj:hover{
-
+background-position: -90px -109px;
 }
 
 .icon__footer--envio:hover{
