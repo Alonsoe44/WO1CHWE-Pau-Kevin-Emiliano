@@ -278,6 +278,18 @@ p {
   background-position: -150px -107px;
 }
 
+.icon__footer--reembolso:hover{
+    background-position: -223px -109px;
+}
+
+.icon__footer--reloj:hover{
+
+}
+
+.icon__footer--envio:hover{
+
+}
+
 .container-contact {
   max-width: 325px;
   padding: 90px 0px;
