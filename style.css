@@ -546,10 +546,31 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 620px;
   }
 
+  .container-fiestas__button-container {
+    padding-top: 50px;
+  }
+
+  .container-fiestas__container-sections {
+    width: 1080px;
+  }
+
+  .container-fiestas__mini-containers{
+    width: 715px;
+    height: 300px;
+  }
+
+  .horitzontal {
+    width: 350px;
+    height: 615px;
+  }
+
+  .container-fiestas {
+    padding: 0px;
+  }
 }
   
 .container-brands-section{
   display: unset;
   }
-}
+
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
