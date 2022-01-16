@@ -417,6 +417,13 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   top: 240px;
 }
 
+.brand-group-container .hidden{
+  display: none;
+}
+.container-brands-section.hidden{
+    display: none;
+  }
+
 @media (min-width: 601px) {
   .container-contact {
     max-width: 100%;
@@ -487,7 +494,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
       filter: alpha(opacity=50);
       opacity: 0.8;
       display: inline;
-      margin: 40px;
+      margin: 10px;
   }
 
   .brand:hover {
@@ -502,12 +509,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   }
 
   .brands-group{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1135px;
-    height: auto;
-    justify-content: space-around;
-    
+   
   }
 
   .brand-group-container{
@@ -524,12 +526,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     display: block;
   }
   .container-brands-section{
-    background-color: blue;
     display: none;
   }
   .tittle-disappear{
     display: none;
-    background-color: red;
   }
 
   .img-cutted {
@@ -545,11 +545,21 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     width: 300px;
     height: 620px;
   }
+  .container-brands-section{
+    display: unset;
+  }
+  .container-brands-section .hidden{
+    display: inline;
+  }
+
+  .container-fiestas.hidden{
+    display: inline-block;
+  }
+  .container-brands-section.hidden{
+    display: block;
+  }
 
 }
   
-.container-brands-section{
-  display: unset;
-  }
-}
+
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
