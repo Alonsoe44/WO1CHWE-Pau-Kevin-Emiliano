@@ -303,7 +303,7 @@ color: #524C47;
 }
 
 .container-contact__about-us a{
-  padding: 10px;
+  padding: 5px 0px 0px 20px;
   text-decoration: none;
 }
 
@@ -323,12 +323,15 @@ color: #524C47;
   height: 40px;
   line-height: 40px;
   width: 100%;
-  background: #ff5959;
+  background-color: #ff5959;
   color: #fff;
   border: none;
-  cursor: pointer;
-  margin-bottom: 55px;
   font-weight: 700;
+  padding: 0px 10px;
+}
+
+.container-contact__button:hover {
+  background-color: #e5595980;
 }
 
 .width100 {
@@ -346,24 +349,40 @@ color: #524C47;
   background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) 0 -494px no-repeat transparent;
 }
 
+.icon__rss--facebook:hover {
+  background-position:  0 -574px;
+}
+
 .icon__rss--instagram{
   background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -35px -494px no-repeat transparent;
+}
 
+.icon__rss--instagram:hover{
+  background-position: -35px -574px;
 }
 
 .icon__rss--twitter{
   background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -70px -494px no-repeat transparent;
+}
 
+.icon__rss--twitter:hover{
+  background-position: -70px -574px;
 }
 
 .icon__rss--pinterest{
   background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -106px -494px no-repeat transparent;
+}
 
+.icon__rss--pinterest:hover{
+  background-position: -106px -574px;
 }
 
 .icon__rss--youtube{
   background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -176px -494px no-repeat transparent;
+}
 
+.icon__rss--youtube:hover{
+  background-position: -176px -574px;
 }
 
 .row__follow-us{
@@ -447,6 +466,11 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
   .container-contact__anchors-media{
     width: 100%;
+  }
+
+  .container-contact__anchors-media a:hover{
+    text-decoration: underline;
+    color: #ff5959;
   }
 
   .container-contact__about-us {
@@ -651,6 +675,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .container-fiestas_view-more:hover{
       text-decoration: underline;
   }
+
 }
 
 .container-brands-section{
