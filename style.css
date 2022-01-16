@@ -321,12 +321,9 @@ color: #524C47;
   margin-top: 35px;
 
 }
-
 .container-contact__about-us a{
-  padding: 5px 0px 0px 20px;
   text-decoration: none;
 }
-
 .container-contact__checkbox-container {
   font-size: 14px;
   color: #67625f;
@@ -699,6 +696,11 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .container-fiestas_view-more:hover{
       text-decoration: underline;
   }
+
+  .container-contact__about-us a{
+  padding: 5px 0px 0px 20px;
+
+}
 
 }
 
