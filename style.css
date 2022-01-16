@@ -213,9 +213,10 @@ p {
   padding: 20px;
 }
 
-.container-fiestas__text {
+.container-fiestas__title-photos {
   font-size: 18px;
   line-height: 18px;
+  color: #67635F;
 }
 
 .container-contact__mail-list {
@@ -559,6 +560,12 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 150px;
   }
 
+  .container-fiestas__text-photos {
+    font-size: 15px;
+    line-height: 18px;
+    color: #67635F;
+  }
+
   .container-fiestas__container-text--right{
     right: 100px;
   }
@@ -575,6 +582,11 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     top: 0;
   }
 
+  .container-fiestas__title-photos {
+  font-size: 24px;
+  line-height: 24px;
+}
+
   .horitzontal {
     width: 350px;
     height: 615px;
@@ -585,7 +597,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   }
 
   .container-fiestas {
-    padding: 0px;
+    padding: 100px 0 0 0;
   }
 }
   
