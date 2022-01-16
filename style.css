@@ -563,6 +563,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 140px;
   }
   .flag{
+    display: block;
     margin-right: 2px;
   }
   .flag-much{
