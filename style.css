@@ -576,6 +576,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     position: absolute;
     position:fixed;
     z-index: 4;
+    top: 0;
   }
 }
 
