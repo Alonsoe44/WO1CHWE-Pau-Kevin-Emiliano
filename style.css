@@ -274,6 +274,10 @@ p {
     no-repeat transparent;
 }
 
+.icon__footer--devoluciones:hover{
+  background-position: -150px -107px;
+}
+
 .container-contact {
   max-width: 325px;
   padding: 90px 0px;
