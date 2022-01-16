@@ -553,6 +553,8 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .container-fiestas__mini-containers{
     width: 715px;
     height: 300px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .container-fiestas__container-text{
@@ -590,6 +592,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .horitzontal {
     width: 350px;
     height: 615px;
+    margin-left: 15px;
   }
 
   .img-cutted{
