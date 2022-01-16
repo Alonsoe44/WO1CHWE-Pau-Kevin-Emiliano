@@ -564,6 +564,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 615px;
   }
 
+  .img-cutted{
+    object-fit: none;
+  }
+
   .container-fiestas {
     padding: 0px;
   }
