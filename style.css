@@ -667,6 +667,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     z-index: 4;
     top: 0;
   }
+
+  .container-fiestas_view-more:hover{
+      text-decoration: underline;
+  }
 }
 
 .container-brands-section{
