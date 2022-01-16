@@ -571,6 +571,12 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 70px;
     background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/mumuchu.png) #F6B436 bottom center no-repeat;
   }
+
+  .main__flags{
+    position: absolute;
+    position:fixed;
+    z-index: 4;
+  }
 }
 
 .container-brands-section{
