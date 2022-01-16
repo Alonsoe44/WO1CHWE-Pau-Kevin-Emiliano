@@ -87,13 +87,20 @@ ul {
   display: flex;
 }
 
-a{
-  text-decoration: none;
+body{
+  margin: 0px;
 }
 
-h3 {
-  margin: 0px;
+a{
+  color: #2e2925;
+}
+
+h3{
   font-weight: 700;
+}
+
+h3, h4 {
+  margin: 0px;
 }
 
 li {
@@ -106,7 +113,10 @@ li a {
   color: #67625f;
 }
 
-
+ul {
+  padding: 0px;
+  margin: 0px;
+}
 
 p {
   margin: 0px;
@@ -272,8 +282,11 @@ padding-bottom: 35px;
 color: #524C47;
 }
 
+.container__last-footer {
+  background-color: #F8F8F8;
+}
+
 .container-contact__subscribe {
-  background-color: #fff;
   border-top: 1.5px solid #cac8c6;
   border-bottom: 1.5px solid #cac8c6;
   line-height: 40px;
@@ -287,6 +300,7 @@ color: #524C47;
 
 .container-contact__about-us a{
   padding: 10px;
+  text-decoration: none;
 }
 
 .container-contact__checkbox-container {
@@ -350,12 +364,14 @@ color: #524C47;
 
 .row__follow-us{
   text-align: center;
-  padding: 0;
-  margin: 0;
 }
 
 .follow-us{
   padding-bottom: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 55px 0 15px;
+  color: #67625f;
 }
 
 .icon__contact{
@@ -396,13 +412,52 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     line-height: 50px;
 }
 
+
 .image__cake{
   position: absolute;
   top: 240px;
 }
 
+@media (min-width: 601px) {
+  .container-contact {
+    max-width: 100%;
+    border: none;
+    padding: 20px 0px 90px 0px;
+  }
+  .container-contact__subscribe {
+    border: none;
+    border-right: 1.5px solid #cac8c6;
+    border-left: 1.5px solid #cac8c6;
+    padding: 0px 30px
+  }
+  .icon__contact {
+    margin-right: 10px;
+  }
 
-@media (min-width: 601px){
+  .container-contact__anchors-media{
+    width: 100%;
+  }
+
+  .container-contact__about-us {
+    margin-top: 0;
+  }
+
+  .container-contact__button {
+    margin: 0px;
+    position: relative;
+    top: 21px;
+  }
+
+  .follow-us {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .row__follow-us{
+  text-align: left;
+  }
+
+
 
 .row__icons{
   height: 215px;
@@ -478,7 +533,6 @@ margin: 0;
   background-color: red;
 }
   
-@media(min-width: 600px){
 .container-brands-section{
   display: unset;
   }
