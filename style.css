@@ -124,7 +124,6 @@ p {
 
 .container-fiestas {
   background-color: #f8f8f8;
-  height: 770px;
   padding: 100px 110px 0px 110px;
 }
 
@@ -459,78 +458,94 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 
 
-.row__icons{
-  height: 215px;
-width: 100%;
-margin: 0;
-}
+  .row__icons{
+    height: 215px;
+  width: 100%;
+  margin: 0;
+  }
 
 
-.row__icons--padding{
-  padding-left: 200px;
-  padding-right: 0px;
-}
+  .row__icons--padding{
+    padding-left: 200px;
+    padding-right: 0px;
+  }
 
-.row__icons--padding-asd{
-  padding-left: 0px;
-  padding-right: 200px;
-}
+  .row__icons--padding-asd{
+    padding-left: 0px;
+    padding-right: 200px;
+  }
 
 
-.brand {
+  .brand {
+      height: auto;
+      text-align: center;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: alpha(opacity=50);
+      opacity: 0.8;
+      display: inline;
+      margin: 40px;
+  }
+
+  .brand:hover {
+      filter: grayscale(0%);
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      -ms-filter: grayscale(0%);
+      -o-filter: grayscale(0%);
+      filter: alpha(opacity=0);
+      opacity: 1;
+
+  }
+
+  .brands-group{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1135px;
     height: auto;
-    text-align: center;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: alpha(opacity=50);
-    opacity: 0.8;
-    display: inline;
-    margin: 40px;
-}
+    justify-content: space-around;
+    
+  }
 
-.brand:hover {
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
-    filter: alpha(opacity=0);
-    opacity: 1;
+  .brand-group-container{
+    display: flex;
+    justify-content: center;
+  }
 
-}
+  .breath-air{
+    height: 100px;
+  }
 
-.brands-group{
-  display: flex;
-  flex-wrap: wrap;
-  width: 1135px;
-  height: auto;
-  justify-content: space-around;
-  
-}
+  .breath-air__small{
+    height: 40px;
+    display: block;
+  }
+  .container-brands-section{
+    background-color: blue;
+    display: none;
+  }
+  .tittle-disappear{
+    display: none;
+    background-color: red;
+  }
 
-.brand-group-container{
-  display: flex;
-  justify-content: center;
-}
+  .img-cutted {
+    object-fit: contain;
+  }
 
-.breath-air{
-  height: 100px;
-}
+  .container-fiestas__mini-containers {
+    width: 600px;
+    height: 300px;
+  }
 
-.breath-air__small{
-  height: 40px;
-  display: block;
-}
-.container-brands-section{
-  background-color: blue;
-  display: none;
-}
-.tittle-disappear{
-  display: none;
-  background-color: red;
+  .horitzontal {
+    width: 300px;
+    height: 620px;
+  }
+
 }
   
 .container-brands-section{
