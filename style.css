@@ -828,13 +828,48 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .menu-header {
     height: 300px;
     width: 55%;
-    background-color: grey;
+    padding-bottom: 160px;
+  }
+
+  .menu-header img{
+    height: 100px;
+    width: 100px;
   }
 
   .header-quick-acces-container{
     width: 1080px;
   }
 
+  .blog {
+    display: block;
+    background-color: #FF5959;
+    background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/menu.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 700px;
+    background-position: -400px 0;
+  }
+
+  .blog:hover{
+    background-color: #f2f2f2;
+  }
+
+  .nav-menu-header-container img{
+    margin-left: 5px;
+    background-color: #f2f2f2;
+    height: 100px;
+    width: 100px;
+  }
+
+  .nav-menu-header-container img:hover{
+    background-color: #FF5959;
+  }
+
+  .nav-menu-header-container p {
+    font-size: 15px;
+    font-weight: 600;
+  }
 
   .search-bar-container{
     width: 1080px;
@@ -842,13 +877,19 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     background-color: hotpink;
   }
 
-  .logo-media-farolillos{
-    width: 250px;
+  .nav-menu-header-container--blog{
+    height: 120px;
+    color: #FF5959;
+  }
+
+  .nav-menu-header-container--blog:hover{
+    background-color: #fff;
+    color: #000000;
   }
 }
 
 .container-brands-section{
   display: unset;
-  }
+}
 
 /* https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
