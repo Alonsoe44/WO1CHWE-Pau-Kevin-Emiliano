@@ -471,7 +471,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 .top-bar {
   height: 50px;
-  background-color: grey;
+  background-color: #F8F8F8;
   display: flex;
   align-items: center;
 }
@@ -521,6 +521,11 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 }
 .cart-contaienr__cart-number p {
   font-size: 20px;
+}
+
+.lunarillos-logo-container{
+  max-width: 325px;
+  margin: 30px 110px 185px 0px;
 }
 
 
