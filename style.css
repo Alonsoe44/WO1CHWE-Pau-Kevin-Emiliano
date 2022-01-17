@@ -771,8 +771,28 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     background-color: grey;
   }
 
+  .menu-header h4 {
+    font-size: 15px;
+  }
+
+  .menu-header img{
+    height: 100px;
+    width: 100px;
+  }
+
   .header-quick-acces-container{
     width: 1080px;
+  }
+
+  .blog {
+    display: block;
+    background-color: #FF5959;
+    background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/icons/menu.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 700px;
+    background-position: -400px 0;
   }
 
 
