@@ -471,13 +471,58 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 .top-bar {
   height: 50px;
-  background-color: #F8F8F8;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar__burger-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .top-bar__burger{
-
-  
+  border: 2px solid #F8F8F8;
+  height: 7px;
+  width: 30px;
+  margin-bottom: 3px;
+  background-color: #FF5959;
+  border-radius: 5px;
 }
+
+.top-bar__user {
+  width: 27px;
+  height: 27px;
+  background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg)
+  0 0 no-repeat;
+}
+
+.cart-container__searcher{
+  width: 50px;
+  height: 50px;
+  background: #bbb8b6
+  url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -304px
+  12px no-repeat;
+}
+
+.cart-container__cart{
+  height: 50px;
+  width: 50px;
+  background: #fff
+  url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -66px
+  10px no-repeat;
+}
+
+.cart-contaienr__cart-number {
+  height: 50px;
+  width: 50px;
+  background-color: #FF5959;
+  color: white;
+}
+.cart-contaienr__cart-number p {
+  font-size: 20px;
+}
+
 
 @media (min-width: 601px) {
   .container-contact {
