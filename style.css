@@ -78,23 +78,41 @@ ul {
     display: block;
     text-indent: -3000px;
 }
+
+.social-header-icon:hover{
+  color: red;
+}
 .facebook {
   background-position: -4px -540px;
+}
+.facebook:hover{
+  background-position: -4px -500px;
 }
 
 .twitter{
  background-position: -40px -540px;
 }
+.twitter:hover{
+  background-position: -40px -500px;
+}
 .instagram{
 background-position: -75px -540px;
 }
-
+.instagram:hover{
+  background-position: -75px -500px;
+}
 .pinterest{
+  background-position: -110px -540px;
+}
+.pinterest:hover{
   background-position: -110px -540px;
 }
 .youtube{
   background-position: -180px -540px;
+}
 
+.youtube:hover{
+  background-position: -180px -500px;
 }
 
 .red {
@@ -517,6 +535,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   width: 500px;
 }
 
+
 .top-bar__burger{
   border: 2px solid #F8F8F8;
   height: 7px;
@@ -533,6 +552,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   0 0 no-repeat;
 }
 
+.top-bar__user:hover {
+  background-position: -37px 0px;
+}
+
 .cart-container__searcher{
   width: 50px;
   height: 50px;
@@ -547,6 +570,11 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   background: #fff
   url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) -66px
   10px no-repeat;
+}
+
+.cart-container__cart:hover{
+  background-position: -106px 10px;
+  background-color: #FF5959;
 }
 
 .cart-contaienr__cart-number {
@@ -748,6 +776,12 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
   .enter-register{
     display: flex;
+    text-decoration: none;
+  }
+
+  .enter-register:hover{
+    color: red;
+    
   }
 
   .horitzontal {
