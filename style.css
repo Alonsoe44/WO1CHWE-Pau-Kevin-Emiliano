@@ -500,7 +500,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 .image__cake{
   position: absolute;
-  top: 480px;
+  top: 250px;
 }
 
 .brands{
@@ -669,6 +669,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
       opacity: 0.8;
       display: inline;
       margin: 10px;
+  }
+
+  .image__cake{
+  top: 375px;
   }
 
   .brand:hover {
@@ -894,6 +898,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     background-color: #f2f2f2;
     height: 100px;
     width: 100px;
+    padding: 15px 25px
   }
 
   .nav-menu-header-container img:hover{
@@ -908,6 +913,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .search-bar-container{
    width: 1080px;
    margin: auto;
+   padding: 45px 0 20px 0;
   }
 
   .nav-menu-header-container--blog{
