@@ -759,14 +759,14 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   }
 
   .logo-farolillos-responsive {
-    height: 400px;
+    height: 300px;
     width: 50%;
     background-color: violet;
   }
 
   .menu-header {
-    height: 400px;
-    width: 50%;
+    height: 300px;
+    width: 55%;
     background-color: grey;
   }
 
@@ -774,6 +774,12 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     width: 1080px;
   }
 
+
+  .search-bar-container{
+    width: 1080px;
+    height: 200px;
+    background-color: hotpink;
+  }
 }
 
 .container-brands-section{
