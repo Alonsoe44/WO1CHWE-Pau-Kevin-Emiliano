@@ -500,7 +500,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 .image__cake{
   position: absolute;
-  top: 375px;
+  top: 250px;
 }
 
 .brands{
@@ -669,6 +669,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
       opacity: 0.8;
       display: inline;
       margin: 10px;
+  }
+
+  .image__cake{
+  top: 375px;
   }
 
   .brand:hover {
