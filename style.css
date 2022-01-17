@@ -13,6 +13,9 @@ ul {
   padding: 0px;
   margin: 0px;
 }
+.big-cunt{
+  background-color: #F8F8F8;
+}
 
 .menu-bar {
   display: flex;
@@ -65,8 +68,33 @@ ul {
   justify-content: center;
   font-size: 1.5rem;
 }
-.image-imagotype {
-  margin-top: 60px;
+.social-header-icon{
+ 
+    width: 25px;
+    height: 20px;
+    margin-right: 15px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg) transparent 0 0 no-repeat;
+    text-indent: -3000px;
+    display: block;
+    text-indent: -3000px;
+}
+.facebook {
+  background-position: -4px -540px;
+}
+
+.twitter{
+ background-position: -40px -540px;
+}
+.instagram{
+background-position: -75px -540px;
+}
+
+.pinterest{
+  background-position: -110px -540px;
+}
+.youtube{
+  background-position: -180px -540px;
+
 }
 
 .red {
@@ -243,7 +271,6 @@ p {
   background-color: #e8e6e5;
   padding: 50px;
 }
-
 .icon__foter {
   display: block;
   height: 60px;
@@ -468,12 +495,26 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 .container-brands-section.hidden{
   display: none;
 }
+.big-cunt{
+  display: flex;
+  justify-content: center;
 
+}
+
+.socials{
+    display: none;
+  }
+
+  .enter-register{
+    display: none;
+  }
 .top-bar {
   height: 50px;
   background-color: #F8F8F8;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  width: 500px;
 }
 
 .top-bar__burger{
@@ -612,10 +653,14 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
       opacity: 1;
 
   }
-
-  .brands-group{
-   
+  .menu-left-space{
+    display: inline;
+    width: 410px;
+    background-color: red;
   }
+  .cart-container__searcher{
+    display: none;
+}
 
   .brand-group-container{
     display: flex;
@@ -689,6 +734,21 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   font-size: 24px;
   line-height: 24px;
 }
+
+  .top-bar{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .socials{
+    display: flex;
+  }
+
+  .enter-register{
+    display: flex;
+  }
 
   .horitzontal {
     width: 350px;
