@@ -775,14 +775,38 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 
   .search-bar-container{
-    width: 1080px;
-    height: 200px;
-    background-color: hotpink;
+   
   }
 
   .logo-media-farolillos{
     width: 250px;
   }
+
+  .search-bar-news{
+    background-color: #9FAA4D;
+    border: 0;
+    width: 130px;
+    height: 30px;
+  }
+  .search-bar-news a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .search-bar-news::before{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
+) -244px 4px no-repeat;
+    content: '';
+  }
+
+
+  
 }
 
 .container-brands-section{
