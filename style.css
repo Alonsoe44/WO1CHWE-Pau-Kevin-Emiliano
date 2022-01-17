@@ -482,7 +482,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 .image__cake{
   position: absolute;
-  top: 240px;
+  top: 480px;
 }
 
 .brands{
@@ -814,9 +814,37 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
   .container-contact__about-us a{
   padding: 5px 0px 0px 20px;
+  }
 
-}
+  .lunarillos-logo-container {
+    display: none;
+  }
 
+  .logo-farolillos-responsive {
+   width: 45%;
+
+  }
+
+  .menu-header {
+    height: 300px;
+    width: 55%;
+    background-color: grey;
+  }
+
+  .header-quick-acces-container{
+    width: 1080px;
+  }
+
+
+  .search-bar-container{
+    width: 1080px;
+    height: 200px;
+    background-color: hotpink;
+  }
+
+  .logo-media-farolillos{
+    width: 250px;
+  }
 }
 
 .container-brands-section{
