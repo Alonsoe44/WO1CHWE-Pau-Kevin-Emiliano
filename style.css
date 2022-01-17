@@ -476,11 +476,6 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   align-items: center;
 }
 
-.top-bar__burger-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .top-bar__burger{
   border: 2px solid #F8F8F8;
   height: 7px;
