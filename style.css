@@ -775,7 +775,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
 
   .search-bar-container{
-   
+   width: 1080px;
   }
 
   .logo-media-farolillos{
@@ -830,6 +830,23 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
 ) -274px 4px no-repeat;
     content: '';
+  }
+
+  .search-bar-search{
+    height: 28px;
+    width: 124px;
+    padding: 0.5px;
+    border-radius: 0;
+    border: 1px solid #BBB8B6;
+  }
+
+  .search-bar-search--after{
+    width: 49px;
+    height: 28px;
+    background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg
+    ) -303px 2px #BBB8B6 no-repeat;
+    display: inline-block;
+    content:""
   }
 
 
