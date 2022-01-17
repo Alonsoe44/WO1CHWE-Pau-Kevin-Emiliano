@@ -781,6 +781,10 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     height: 200px;
     background-color: hotpink;
   }
+
+  .logo-media-farolillos{
+    width: 250px;
+  }
 }
 
 .container-brands-section{
