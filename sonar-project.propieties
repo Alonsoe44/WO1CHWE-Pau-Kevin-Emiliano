@@ -1,0 +1,5 @@
+# must be unique in a given SonarQube instance
+sonar.projectKey=maria-lunarillos
+
+sonar.sources=./
+sonar.scm.provider=git
