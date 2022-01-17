@@ -907,6 +907,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
   .search-bar-container{
    width: 1080px;
+   margin: auto;
   }
 
   .nav-menu-header-container--blog{
