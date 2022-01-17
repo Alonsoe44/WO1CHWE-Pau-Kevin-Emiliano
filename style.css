@@ -396,6 +396,11 @@ color: #524C47;
   background-color: #e5595980;
 }
 
+.desesperation{
+  width: 100vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .width100 {
   width: 100%;
 }
@@ -497,18 +502,18 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     line-height: 50px;
 }
 
-
+.container-fiestas__decoration.hidden{
+  display: block;
+}
 .image__cake{
   position: absolute;
   top: 250px;
 }
 
-.brands{
-  height: 1575px;
-}
 
 .brand-group-container .hidden{
   display: none;
+  margin-top: 100px;
 }
 .container-brands-section.hidden{
   display: none;
@@ -669,6 +674,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
       opacity: 0.8;
       display: inline;
       margin: 10px;
+      margin-top: 30px;
   }
 
   .image__cake{
@@ -697,6 +703,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   .brand-group-container{
     display: flex;
     justify-content: center;
+    padding-top: 50px;
   }
 
   .breath-air{
@@ -810,6 +817,9 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
   }
   .container-brands-section.hidden{
     display: block;
+    width: 90vw;
+    align-self: center;
+    margin-left: 8%;
   }
 
   .icon-header__menu{
