@@ -970,6 +970,7 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-left: 5px;
   }
   .search-bar-sale{
     color: #fff;
@@ -990,10 +991,14 @@ background: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2
 
   .search-bar-search{
     height: 28px;
-    width: 124px;
+    width: 250px;
     padding: 0.5px;
     border-radius: 0;
     border: 1px solid #BBB8B6;
+    margin-left: 5px;
+    font-size: 13px;
+    padding-left: 10px;
+    color: #C6C5C3;
   }
 
   .search-bar-search--after{
